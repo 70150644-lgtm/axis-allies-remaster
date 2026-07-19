@@ -21,13 +21,13 @@ public:
 	 * Get unit name
 	 */
 	UFUNCTION(BlueprintCallable, Category = "Unit")
-	FString GetUnitName() const override { return TEXT("Fighter"); }
+	virtual FString GetUnitName() const override { return TEXT("Fighter"); }
 
 	/**
 	 * Get unit description
 	 */
 	UFUNCTION(BlueprintCallable, Category = "Unit")
-	FString GetUnitDescription() const override;
+	virtual FString GetUnitDescription() const override;
 
 	/**
 	 * Can provide air cover to friendly units in territory
