@@ -1,0 +1,105 @@
+# Unreal Engine
+Binaries/
+Intermediate/
+Saved/
+Plugins/Marketplace/
+DerivedDataCache/
+.vs/
+.vscode/
+.idea/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.mod
+
+# Fortran module files
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executable
+*.exe
+*.out
+*.app
+
+# IDE
+*.sln
+*.vcxproj*
+*.xcodeproj/
+*.xcworkspace/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project Files
+*.uproject
+*.sln
+AxisAllies.sln
+
+# Visual Studio cache/options
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+Logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node modules (if needed for tools)
+node_modules/
+package-lock.json
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
